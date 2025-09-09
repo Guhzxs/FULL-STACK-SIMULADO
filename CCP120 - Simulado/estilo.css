@@ -1,0 +1,64 @@
+.topo {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    display: flex;
+    text-align: end;
+}
+
+.topo img{
+    justify-content: flex-start;
+    margin: 0px 0px 0px 50px;
+}
+
+
+.topinho {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: lightslategray;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.imagens {
+    justify-content: center;
+    gap:40px;
+    padding: 10px;
+    display:flex;
+    position: relative;
+    margin: auto;
+}
+
+.greyquadrado {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: darkgrey;
+    height: 400px;
+}
+
+.greyquadrado h1 {
+    margin: 10px 10px 10px 50px;
+    color: white;
+}
+
+.greyquadrado iframe{
+  justify-content: center;
+  position:relative;
+  width: 600px;
+  height:290px;
+  margin:auto;
+}
+
+.legenda {
+    background-color: crimson;
+    color: white;
+    width: 30%;
+}
