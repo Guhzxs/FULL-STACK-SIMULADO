@@ -5,11 +5,23 @@
     border: 1px solid whitesmoke;
     display: flex;
     text-align: end;
+    justify-content: space-between;
 }
 
 .topo img{
     justify-content: flex-start;
     margin: 0px 0px 0px 50px;
+}
+
+.texttopo {
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+}
+
+.textoh5  {
+    gap: 15px;
+    white-space: nowrap;
 }
 
 
